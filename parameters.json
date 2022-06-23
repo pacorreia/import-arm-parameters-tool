@@ -3,64 +3,10 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "Workflow.Name":{
-            "value": "EUWE01DEVARIBA-SUN-Publisher"
+            "value": "some-workflow"
         },
         "KeyVault.API.Connection.Name" :{
-            "value": "KeyVault-Ariba-to-SUN"
-        },
-        "Ariba.Filesystem.API.Connection.Name" :{
-            "value": "Filesystem-AribaFileshare"
-        },
-        "Workflow.Ariba.To.SUN.API.Endpoint": {
-            "value": "https://ipl-common-api-dev.cofcointernational.com/external/ipl-ariba-to-sun/consolidate-ariba-files"
-        },
-        "Workflow.App.Insights.Instrumentation.Key": {
-            "value": "8fc8bf1c-1088-43fc-91a7-942024057f25"
-        },
-        "Wokflow.Ariba.System.Fileshare": {
-            "value": "\\\\euprdfs01\\MontBlancDev\\FileDrop\\Ariba\\Batch\\Download"
-        },
-        "Workflow.GrainSmart.Biztalk.Input.Fileshare": {
-            "value": "\\\\euprdfs01\\MontBlancDev\\FileDrop\\Ariba\\PAYMENTS\\IN"
-        },
-        "Workflow.AribaToSun.API.Endpoint.Subscription.Secret.Name": {
-            "value": "apim-ariba-to-sun-function-subscription-key"
-        },
-        "Workflow.Logging.Email.Recipient": {
-            "value": "saraaraujo@cofcointernational.com;pacorreia@cofcointernational.com"
-        },
-        "Workflow.Logging.Source.Name": {
-            "value": "Ariba"
-        },
-        "Workflow.Logging.Storage.Account.Container": {
-            "value": "aribatosun"
-        },
-        "Workflow.Logging.Storage.Account.Name": {
-            "value": "euwe01deviplmontblanc"
-        },
-        "Workflow.Logging.User.Id": {
-            "value": "AribaToSun"
-        },
-        "Workflow.Staging.Storage.Account.Name": {
-            "value": "euwe01devasstg01"
-        },
-        "Workflow.Staging.Storage.Incoming.Container": {
-            "value": "incoming"
-        },
-        "Workflow.Logging.Resource.Id": {
-            "value": "/subscriptions/2093aaa9-e105-41e9-b930-c42909c8f115/resourceGroups/CI-EUWE01-PAAS-INTEGRATIONPLATFORM-02/providers/Microsoft.Logic/workflows/EUWE01DEVIPL01-COMMON-LOGGING"
-        },
-        "Workflow.Mail.Resource.Id": {
-            "value": "/subscriptions/2093aaa9-e105-41e9-b930-c42909c8f115/resourceGroups/CI-EUWE01-PAAS-INTEGRATIONPLATFORM-02/providers/Microsoft.Logic/workflows/EUWE01DEVIPL01"
-        },
-        "Workflow.Trigger.Frequency": {
-            "value": "Hour"
-        },
-        "Workflow.Trigger.Interval": {
-            "value": 6
-        },
-        "Workflow.Trigger.StartTime": {
-            "value": "04:00:00"
+            "value": "test1"
         }
     }
 }
